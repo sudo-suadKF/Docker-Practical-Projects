@@ -1,0 +1,5 @@
+services:
+  app:
+    image: 541064517911.dkr.ecr.eu-west-2.amazonaws.com/node.js:latest
+    ports:
+      - '1199:1199'
