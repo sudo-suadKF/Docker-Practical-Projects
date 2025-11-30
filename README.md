@@ -73,9 +73,9 @@ Basically it separates the two stages which makes the image build lighter, the i
         - Build and tag the image in the terminal:  
         `docker build -t <Dockerhub username>/<repository name>:<tag> <dockerfile's directory>` 
 
-        example from project:  
-        `docker build -t sudosuad/flask-mysql:v1 .`  
-        The "." at the end says the dockerfile is in the current working directory.
+            example from project:    
+            `docker build -t sudosuad/flask-mysql:v1 .`  
+            The "." at the end says the dockerfile is in the current working directory.
         - Push the image:  
         `docker push sudosuad/flask-mysql:v1`  
         <img src="/images/pushed_image_dockerhub.png"></img>
